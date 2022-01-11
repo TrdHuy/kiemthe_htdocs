@@ -1,4 +1,4 @@
-<?
+<?php
 //Code by Vu Thanh Lai
 //Shared by: vu Thanh Lai
 //Shared at: SinhVienIT.Net

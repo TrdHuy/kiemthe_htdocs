@@ -35,3 +35,4 @@ class connectMySQL
 		@mysqli_close($conn);
 	}
 }
+?>
