@@ -1,0 +1,97 @@
+/*mail tip*/
+
+.mailtip{ position:absolute; border:1px solid #614c31; width:198px; background:#e9dcd3; top:200px;z-index: 2;}
+.mailtip .mt{ height:22px; padding:0 10px; line-height:22px; overflow:hidden; border-bottom:1px solid #c5b38d;}
+.mailtip .mt span{ float:left; font-size:14px; font-weight:700; color:#f34626;}
+.mailtip .mt a{ float:right; color:#190f03;}
+.mailtip .mc{ padding:10px; color:#503d39; line-height:22px;}
+.mailtip .mc a{ color:#7f4600;}
+
+
+/*Ă¯Â¿Â½Ä‚ÂµĂ¯Â¿Â½*/
+#slides {position:relative; width:345px; height:260px; overflow:hidden;border: 0px #DDD solid;}
+.slides_container {width:345px; overflow:hidden; position:relative; display:none;}
+.slides_container div.slide {width:345px; height:260px; display:block}
+.pagination {position:absolute; bottom:-10px; left: 50px; z-index:10;}
+.pagination li {float:left; margin-right:1px; font-size: 12px;}
+.pagination li a {background-color: #8e8d8d;color: #000;display: inline;float: left;height: 13px;left: -30px;line-height: 10px;overflow: hidden;padding: 2px 0 0 7px;position: relative;top: -10px;width: 15px; text-decoration: none;}
+.pagination li.current a { color:red;}
+/*endĂ¯Â¿Â½Ä‚ÂµĂ¯Â¿Â½*/
+
+.hide {display:none;}
+.show {display:block;}
+
+
+.opfom p.psub a.reg{ width:116px; height:26px; line-height:26px; vertical-align:middle; display:inline-block; border:0 none; cursor:pointer; background:url(../images/btn_cz.jpg) no-repeat; text-align:center; font-size:14px; color:#fff; font-weight:700; margin-right:20px;}
+.opfom p.findpwd{ text-align:right; padding:15px;}
+.opfom p.findpwd a{ color:#fff;}
+.logcnt{text-align:center; color:#000; font-weight:700; margin-bottom: 0px;}
+.logcnt .splogbj{ width:110px; height:25px; vertical-align:middle; margin-left:10px; overflow:hidden; background:url(../images/login/unlog.png) no-repeat; display:inline-block;}
+.logcnt .splogbj a{ width:25px; height:25px; margin-right:2px; float:left; _display:inline; font-size:0; line-height:0; text-indent:-9999px;}
+
+
+
+.chpwfm p .sptip{ display:block; margin-left:160px; font-size:11px; color:#686868; line-height:16px;}
+.chpwfm p .spwrong{ display:block; margin-left:193px; font-size:11px; color:#f00; line-height:16px;}
+.chpwfm p .spfbid{ font-weight:700; color:#434343;}
+.chpwfm p.findpwd{ text-align:right; padding:15px;}
+.chpwfm p.findpwd a{ color:#DF0000;}
+
+
+.mtip{ width:420px; margin:40px auto;}
+.mtip .mptip{ min-height:85px; background:url(/static/images/icon_tip.png) no-repeat 0 50%; line-height:24px; padding-left:85px;}
+.mtip .mptip1{ min-height:85px; background:url(/static/images/icon_tip1.png) no-repeat 0 50%; line-height:24px; padding-left:115px;}
+.mtip .mptip2{ min-height:85px; background:url(/static/images/icon_tip2.png) no-repeat 0 50%; line-height:24px; padding-left:85px;}
+.mtip .mpsub{ text-align:center; padding-top:40px;}
+
+/*content*/
+.title{ height:59px; overflow:hidden; width:609px; text-align:center; line-height:40px; color:#700101; font-weight:700; font-size:14px; overflow:hidden; margin:0 auto;}
+.artinfo{ text-align:center; line-height:36px;color:#2f271f;}
+.content{ line-height:26px; color:#2f271f; padding:15px 15px 15px 30px; max-width: 630px;}
+.content p{ margin:10px 0}
+.nlist li a{ color:#745E3E;}
+.content div{ width:600px;word-break:normal;}
+.content .nlist li{ border-bottom:1px dashed #99804D;}
+.content .nlist li .ttitle{ font-weight:bold; font-color:black; padding-right:5px;}
+.content img{ max-width:590px;}
+.sptime {float:right; padding-right:30px;}
+
+.page{ text-align:center; padding:10px;}
+.page a{ border:1px solid #cfcfcf; padding:0 5px; display:inline-block; margin:0 1px; color:#745E3E;}
+.page ul li{ display: inline-block;}
+.page span{ padding-right:5px;}
+
+/* CSKH*/
+.delimg2{font-size: 14px;text-decoration: none;color: blue;margin-left: 10px;}
+.delimg2:hover{font-size: 14px;text-decoration: none;color: orange;}
+.q_email{background: none repeat scroll 0 0 #F6F6F6;border: 1px solid #EBEBEB;margin-top: 10px;min-height: 100px;padding-top: 5px;text-align: center;}
+.q_reply{background: none repeat scroll 0 0 #F6F6F6;border: 1px solid #EBEBEB;margin-top: 10px;min-height: 100px;padding-top: 5px;text-align: center;}
+.q_notice{background: none repeat scroll 0 0 #EEEEEE;border: 1px solid #DDDDDD; margin: 20px 40px;padding: 20px;}
+.lft{background: none repeat scroll 0 0 #F6F6F6;}
+td.rit{text-align: left;}
+
+
+.bindtab{ padding:10px 50px 50px;}
+.bindtab table{border:1px solid #d6e1ef; width:100%; border-width:1px 0px 0px 1px;}
+.bindtab td,.gftab th{border:1px solid #cfcfcf; color:#444; font-size:12px; text-align:center; padding:10px 3px; border-width:0px 1px 1px 0px;}
+.bindtab th{ font-weight:700; color:#000}
+.bindtab td.tdc1{ color:#ff0600;}
+.bindtab .dtip{ height:22px; line-height:22px; color:#5B8433; padding:15px;}
+.bindtab .spt{ background:url(../images/icont.png) no-repeat 0 50%; color:#4a7227; padding-left:15px;}
+
+
+
+/* msgĂ©Â¡ÂµĂ©ÂÂ¢Ă¥â€ºÂ¾Ă¦ â€¡ */
+.msgdtip{ width:400px; padding:10px 0 0 150px; font-size:14px; margin:40px auto; background:url(../images/btn_03.jpg) no-repeat 40px 50%; line-height:80px;  min-height:80px;}
+.msgdtip2{ width:400px; padding:10px 0 0 150px; font-size:14px; margin:40px auto; background:url(../images/btn_06.jpg) no-repeat 40px 50%; line-height:80px;  min-height:80px;}
+
+
+
+/*2013-03-06*/
+.pshow{ width:530px;}
+.pshow h3{ height:34px; background:url(../images/ptip_03.gif) no-repeat -10px 0; font-size:18px; line-height:34px; padding-left:20px; color:#fff;}
+.pshow .dcnt{ background:#fff; padding:10px;}
+.pshow .dtip{ height:80px; color:#5d5d5d; background:url(../images/ptip_07.gif) no-repeat 20px 50%; padding-left:100px; line-height:34px; font-size:18px}
+.pshow .dtxt{ text-align:left; padding:10px; color:#5d5d5d; line-height:22px; border-bottom:1px solid #f2f2f2}
+.pshow .dlok{ padding:10px; height:24px; text-align:center; overflow:hidden;}
+.pshow .dlok a{ display:inline-block; width:172px; height:24px; margin:0 5px; background:url(../images/ptip_11.gif) no-repeat; text-align:center; line-height:24px; color:#fff;}
