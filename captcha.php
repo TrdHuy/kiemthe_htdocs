@@ -17,20 +17,9 @@ class captcha {
 
 	protected $font = 'images/captcha_font.ttf';
 
-	private function generateCode($characters) {
-		# Danh sach cac ky tu co the su dung
-		$possible = '0123456789';
-		$code = '';
-		$i = 0;
-		while ($i < $characters) { 
-			$code .= substr($possible, mt_rand(0, strlen($possible)-1), 1);
-			$i++;
-		}
-		return $code;
-	}
-
-    public function captcha($width='120',$height='40',$characters='6') {
-		$code = $this->generateCode($characters);
+	public function __construct($width='120',$height='40',$characters='6')
+    {
+        $code = $this->generateCode($characters);
 		/* font size will be 75% of the image height */
 		$font_size = $height * 0.75;
 		$image = @imagecreate($width, $height) or die('Cannot initialize new GD image stream');
@@ -56,13 +45,25 @@ class captcha {
 		imagejpeg($image);
 		imagedestroy($image);
 		$_SESSION['security_code'] = $code;
+    }
+
+	private function generateCode($characters) {
+		# Danh sach cac ky tu co the su dung
+		$possible = '0123456789';
+		$code = '';
+		$i = 0;
+		while ($i < $characters) { 
+			$code .= substr($possible, mt_rand(0, strlen($possible)-1), 1);
+			$i++;
+		}
+		return $code;
 	}
+
 
 }
 
 $width = isset($_GET['width']) ? $_GET['width'] : '120';
 $height = isset($_GET['height']) ? $_GET['height'] : '40';
 
-$captcha = new captcha($width,$height,4);
-
+$gen = new captcha($width,$height,4);
 ?>
